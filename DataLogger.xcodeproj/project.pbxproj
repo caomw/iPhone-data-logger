@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF80510213FA8DCA0097A2C4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF80510113FA8DCA0097A2C4 /* MessageUI.framework */; };
+		FFE53A7C13FA67DD003F1EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE53A7B13FA67DD003F1EA1 /* UIKit.framework */; };
+		FFE53A7E13FA67DD003F1EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE53A7D13FA67DD003F1EA1 /* Foundation.framework */; };
+		FFE53A8013FA67DD003F1EA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE53A7F13FA67DD003F1EA1 /* CoreGraphics.framework */; };
+		FFE53A8613FA67DD003F1EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFE53A8413FA67DD003F1EA1 /* InfoPlist.strings */; };
+		FFE53A8913FA67DD003F1EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE53A8813FA67DD003F1EA1 /* main.m */; };
+		FFE53A8C13FA67DD003F1EA1 /* DataLoggerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE53A8B13FA67DD003F1EA1 /* DataLoggerAppDelegate.m */; };
+		FFE53A8F13FA67DD003F1EA1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE53A8D13FA67DD003F1EA1 /* MainWindow.xib */; };
+		FFE53A9213FA67DD003F1EA1 /* DataLoggerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FFE53A9113FA67DD003F1EA1 /* DataLoggerViewController.mm */; };
+		FFE53A9513FA67DD003F1EA1 /* DataLoggerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE53A9313FA67DD003F1EA1 /* DataLoggerViewController.xib */; };
+		FFE53A9E13FA6850003F1EA1 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE53A9C13FA6850003F1EA1 /* MainWindow-iPad.xib */; };
+		FFE53AA613FA6CEA003F1EA1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE53AA513FA6CEA003F1EA1 /* CoreLocation.framework */; };
+		FFE53AA813FA6CF7003F1EA1 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE53AA713FA6CF7003F1EA1 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF80510113FA8DCA0097A2C4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FFE53A7713FA67DD003F1EA1 /* DataLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE53A7B13FA67DD003F1EA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFE53A7D13FA67DD003F1EA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFE53A7F13FA67DD003F1EA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFE53A8313FA67DD003F1EA1 /* DataLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataLogger-Info.plist"; sourceTree = "<group>"; };
+		FFE53A8513FA67DD003F1EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFE53A8713FA67DD003F1EA1 /* DataLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DataLogger-Prefix.pch"; sourceTree = "<group>"; };
+		FFE53A8813FA67DD003F1EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFE53A8A13FA67DD003F1EA1 /* DataLoggerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLoggerAppDelegate.h; sourceTree = "<group>"; };
+		FFE53A8B13FA67DD003F1EA1 /* DataLoggerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataLoggerAppDelegate.m; sourceTree = "<group>"; };
+		FFE53A8E13FA67DD003F1EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FFE53A9013FA67DD003F1EA1 /* DataLoggerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataLoggerViewController.h; sourceTree = "<group>"; };
+		FFE53A9113FA67DD003F1EA1 /* DataLoggerViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DataLoggerViewController.mm; sourceTree = "<group>"; };
+		FFE53A9413FA67DD003F1EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DataLoggerViewController.xib; sourceTree = "<group>"; };
+		FFE53A9D13FA6850003F1EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		FFE53AA513FA6CEA003F1EA1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FFE53AA713FA6CF7003F1EA1 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE53A7413FA67DD003F1EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80510213FA8DCA0097A2C4 /* MessageUI.framework in Frameworks */,
+				FFE53AA813FA6CF7003F1EA1 /* CoreMotion.framework in Frameworks */,
+				FFE53AA613FA6CEA003F1EA1 /* CoreLocation.framework in Frameworks */,
+				FFE53A7C13FA67DD003F1EA1 /* UIKit.framework in Frameworks */,
+				FFE53A7E13FA67DD003F1EA1 /* Foundation.framework in Frameworks */,
+				FFE53A8013FA67DD003F1EA1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFE53A6C13FA67DC003F1EA1 = {
+			isa = PBXGroup;
+			children = (
+				FF80510113FA8DCA0097A2C4 /* MessageUI.framework */,
+				FFE53AA713FA6CF7003F1EA1 /* CoreMotion.framework */,
+				FFE53AA513FA6CEA003F1EA1 /* CoreLocation.framework */,
+				FFE53A8113FA67DD003F1EA1 /* DataLogger */,
+				FFE53A7A13FA67DD003F1EA1 /* Frameworks */,
+				FFE53A7813FA67DD003F1EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE53A7813FA67DD003F1EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE53A7713FA67DD003F1EA1 /* DataLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE53A7A13FA67DD003F1EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFE53A7B13FA67DD003F1EA1 /* UIKit.framework */,
+				FFE53A7D13FA67DD003F1EA1 /* Foundation.framework */,
+				FFE53A7F13FA67DD003F1EA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFE53A8113FA67DD003F1EA1 /* DataLogger */ = {
+			isa = PBXGroup;
+			children = (
+				FFE53A9B13FA684F003F1EA1 /* iPad */,
+				FFE53A8A13FA67DD003F1EA1 /* DataLoggerAppDelegate.h */,
+				FFE53A8B13FA67DD003F1EA1 /* DataLoggerAppDelegate.m */,
+				FFE53A8D13FA67DD003F1EA1 /* MainWindow.xib */,
+				FFE53A9013FA67DD003F1EA1 /* DataLoggerViewController.h */,
+				FFE53A9113FA67DD003F1EA1 /* DataLoggerViewController.mm */,
+				FFE53A9313FA67DD003F1EA1 /* DataLoggerViewController.xib */,
+				FFE53A8213FA67DD003F1EA1 /* Supporting Files */,
+			);
+			path = DataLogger;
+			sourceTree = "<group>";
+		};
+		FFE53A8213FA67DD003F1EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFE53A8313FA67DD003F1EA1 /* DataLogger-Info.plist */,
+				FFE53A8413FA67DD003F1EA1 /* InfoPlist.strings */,
+				FFE53A8713FA67DD003F1EA1 /* DataLogger-Prefix.pch */,
+				FFE53A8813FA67DD003F1EA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE53A9B13FA684F003F1EA1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FFE53A9C13FA6850003F1EA1 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE53A7613FA67DD003F1EA1 /* DataLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE53A9813FA67DD003F1EA1 /* Build configuration list for PBXNativeTarget "DataLogger" */;
+			buildPhases = (
+				FFE53A7313FA67DD003F1EA1 /* Sources */,
+				FFE53A7413FA67DD003F1EA1 /* Frameworks */,
+				FFE53A7513FA67DD003F1EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataLogger;
+			productName = DataLogger;
+			productReference = FFE53A7713FA67DD003F1EA1 /* DataLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE53A6E13FA67DC003F1EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Technion;
+			};
+			buildConfigurationList = FFE53A7113FA67DC003F1EA1 /* Build configuration list for PBXProject "DataLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFE53A6C13FA67DC003F1EA1;
+			productRefGroup = FFE53A7813FA67DD003F1EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE53A7613FA67DD003F1EA1 /* DataLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE53A7513FA67DD003F1EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE53A8613FA67DD003F1EA1 /* InfoPlist.strings in Resources */,
+				FFE53A8F13FA67DD003F1EA1 /* MainWindow.xib in Resources */,
+				FFE53A9513FA67DD003F1EA1 /* DataLoggerViewController.xib in Resources */,
+				FFE53A9E13FA6850003F1EA1 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE53A7313FA67DD003F1EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE53A8913FA67DD003F1EA1 /* main.m in Sources */,
+				FFE53A8C13FA67DD003F1EA1 /* DataLoggerAppDelegate.m in Sources */,
+				FFE53A9213FA67DD003F1EA1 /* DataLoggerViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFE53A8413FA67DD003F1EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE53A8513FA67DD003F1EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFE53A8D13FA67DD003F1EA1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE53A8E13FA67DD003F1EA1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FFE53A9313FA67DD003F1EA1 /* DataLoggerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE53A9413FA67DD003F1EA1 /* en */,
+			);
+			name = DataLoggerViewController.xib;
+			sourceTree = "<group>";
+		};
+		FFE53A9C13FA6850003F1EA1 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE53A9D13FA6850003F1EA1 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE53A9613FA67DD003F1EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFE53A9713FA67DD003F1EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FFE53A9913FA67DD003F1EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataLogger/DataLogger-Prefix.pch";
+				INFOPLIST_FILE = "DataLogger/DataLogger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFE53A9A13FA67DD003F1EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DataLogger/DataLogger-Prefix.pch";
+				INFOPLIST_FILE = "DataLogger/DataLogger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE53A7113FA67DC003F1EA1 /* Build configuration list for PBXProject "DataLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE53A9613FA67DD003F1EA1 /* Debug */,
+				FFE53A9713FA67DD003F1EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE53A9813FA67DD003F1EA1 /* Build configuration list for PBXNativeTarget "DataLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE53A9913FA67DD003F1EA1 /* Debug */,
+				FFE53A9A13FA67DD003F1EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE53A6E13FA67DC003F1EA1 /* Project object */;
+}
